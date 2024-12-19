@@ -11,6 +11,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.example.miahorse.ui.theme.MiaHorseApp
 import com.example.miahorse.ui.theme.MiaHorseTheme
 
 class MainActivity : ComponentActivity() {
@@ -24,6 +25,7 @@ class MainActivity : ComponentActivity() {
                         name = "Android",
                         modifier = Modifier.padding(innerPadding)
                     )
+                    MiaHorseApp()
                 }
             }
         }
